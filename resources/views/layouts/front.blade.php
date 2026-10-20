@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2L4 7v9c0 8.84 5.16 13.8 12 15 6.84-1.2 12-6.16 12-15V7L16 2z' fill='%231e40af'/%3E%3Cpath d='M16 4.2L6 8.5v7.5c0 7.2 4.2 11.3 10 12.4 5.8-1.1 10-5.2 10-12.4V8.5L16 4.2z' fill='%232563eb'/%3E%3Cpath d='M17 7l-6 10h5l-2 8 8-11h-5l3-7z' fill='%23facc15'/%3E%3C/svg%3E">
+    
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Jasa SLO - Sertifikat Laik Operasi Ketenagalistrikan | Layanan Resmi Uji Komisioning')</title>
     <meta name="description" content="@yield('meta_description', 'Layanan resmi Jasa SLO (Sertifikat Laik Operasi), uji komisioning instalasi listrik tegangan rendah, tegangan menengah 20 kV, genset, PLTS, dan proteksi petir di 38 provinsi di Indonesia.')">
-    <meta name="google-site-verification" content="Kv9cytZ-4oL0cG1uAMyy_swLihizXciOwQjrKus2Yvg" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4Q6FRBSD3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-E4Q6FRBSD3');
-    </script>
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1704,6 +1696,32 @@
 
     </style>
     @stack('styles')
+
+    <!-- Favicon matching navbar brand logo -->
+    
+    <link rel="alternate icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- Google Search Console Verification -->
+    
+
+    
+
+    <!-- Favicon matching navbar brand logo -->
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    <link rel="alternate icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="5TT9riO0sTrcmV_jZyyDRXNQXjB_4INPaTn0ZYQRA4c" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJDLF2VBGT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RJDLF2VBGT');
+    </script>
 </head>
 <body>
 

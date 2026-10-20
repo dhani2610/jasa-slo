@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#1e3a8a"/>
+  <!-- Shield with Electric Lightning Bolt -->
+  <path d="M16 3L5 8v8c0 7.8 4.7 12.6 11 14 6.3-1.4 11-6.2 11-14V8L16 3z" fill="#1d4ed8"/>
+  <path d="M17 7l-6 10h5l-2 8 8-11h-5l3-7z" fill="#facc15"/>
+</svg>
